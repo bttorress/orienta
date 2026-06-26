@@ -1,21 +1,6 @@
-# Dependências
 node_modules/
-
-# Build
 dist/
-
-# Variáveis de ambiente
 .env
-
-# Logs
-*.log
-
-# Cache
-.npm-cache/
-
-# VS Code
-.vscode/
-
-# Sistema
-.DS_Store
-Thumbs.db
+.env.local
+.env.development
+.env.production
