@@ -1,0 +1,24 @@
+
+> controle-financeiro-pessoal@1.0.0 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v7.3.6[39m  [2mready in [0m[1m461[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m10:05:34[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m10:09:08[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m10:09:29[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m10:24:44[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m10:24:44[22m [36m[1m[vite][22m[39m server restarted.
+[2m10:24:50[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m10:24:51[22m [36m[1m[vite][22m[39m server restarted.
+[2m11:51:30[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/AppLayout.tsx, /src/styles.css[22m
+[2m11:51:44[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TransactionsPage.tsx, /src/styles.css[22m
+[2m11:51:58[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/TransactionsPage.tsx, /src/styles.css[22m
+[2m11:52:22[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/AuthPage.tsx, /src/styles.css[22m
+[2m11:55:19[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css[22m
+[2m11:55:20[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/components/ui/Card.tsx[22m
+[2m11:55:21[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/AppLayout.tsx, /src/styles.css[22m
+[2m11:55:40[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/styles.css, /src/components/ui/ThemeSwitch.tsx[22m
