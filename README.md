@@ -1,73 +1,94 @@
-# Controle Financeiro Pessoal
+# Orienta
 
-Aplicativo web de controle financeiro pessoal feito com React, TypeScript, Vite, Tailwind CSS e Supabase.
+A modern personal finance management app built with React, TypeScript, Vite, Tailwind CSS and Supabase.
 
-## Funcionalidades
+![Orienta Preview](./assets/github/preview.png)
 
-- Autenticacao por e-mail e senha com Supabase Auth
-- Rotas protegidas com React Router
-- Dashboard com saldo, receitas, despesas e metas
-- Cadastro e exclusao de receitas, despesas, categorias e metas
-- Relatorios com graficos usando Recharts
-- Tema claro/escuro
-- Layout responsivo
-- Row Level Security para cada usuario acessar apenas os proprios dados
+## Features
 
-## Tecnologias
+- Email and password authentication with Supabase Auth
+- Protected routes with React Router
+- Financial dashboard with balance, income and expenses
+- Transaction management
+- Category management
+- Financial goals
+- Reports and charts
+- Light and dark mode
+- Responsive layout
+- Row Level Security to keep each user’s data private
 
-- React + TypeScript + Vite
+## Tech Stack
+
+- React
+- TypeScript
+- Vite
 - Tailwind CSS
 - Supabase
 - React Router
 - React Hook Form
 - Zod
 - Recharts
+- Lucide React
 
-## Como rodar
+## Getting Started
 
-1. Instale as dependencias:
+### 1. Install dependencies
 
 ```bash
 npm install
 ```
 
-2. Crie um projeto no Supabase e execute o SQL em `supabase/schema.sql` no SQL Editor.
+### 2. Configure Supabase
 
-3. Copie as variaveis de ambiente:
+Create a project on Supabase and run the SQL file located at:
+
+```txt
+supabase/schema.sql
+```
+
+### 3. Create environment variables
+
+Create a `.env` file based on `.env.example`:
 
 ```bash
 cp .env.example .env
 ```
 
-4. Preencha o `.env` com a URL e a chave publica do seu projeto Supabase:
+Then add your Supabase credentials:
 
-```bash
-VITE_SUPABASE_URL=https://seu-projeto.supabase.co
-VITE_SUPABASE_ANON_KEY=sua-chave-publica-anon-ou-publishable
+```env
+VITE_SUPABASE_URL=your-supabase-url
+VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
 ```
 
-5. Inicie o servidor de desenvolvimento:
+### 4. Run the project
 
 ```bash
 npm run dev
 ```
 
-## Estrutura
+## Project Structure
 
-```text
+```txt
 src/
-  components/      Componentes reutilizaveis, layout e UI
-  contexts/        Providers de autenticacao e tema
-  hooks/           Hooks de carregamento de dados
-  lib/             Cliente Supabase, formatadores e calculos
-  pages/           Telas da aplicacao
-  schemas/         Validacoes Zod dos formularios
-  services/        Operacoes de leitura e escrita no Supabase
-  types/           Tipos do banco
+  components/
+  contexts/
+  hooks/
+  lib/
+  pages/
+  schemas/
+  services/
+  types/
+  utils/
+
 supabase/
-  schema.sql       Tabelas, indices, grants e politicas RLS
+  schema.sql
 ```
 
-## Observacoes de seguranca
+## Security
 
-O frontend usa somente a chave publica do Supabase. O isolamento dos dados fica nas politicas RLS do arquivo `supabase/schema.sql`, sempre combinando `to authenticated` com `auth.uid() = user_id`.
+The app uses Supabase Auth and Row Level Security policies to ensure users can only access their own data.
+
+## Status
+
+This project is under development and was created as part of a personal portfolio.
